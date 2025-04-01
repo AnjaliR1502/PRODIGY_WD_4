@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(237, 249, 254);
+}
+/* Navbar design */
+.navbar{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+}
+.menu{
+    display: flex;
+    gap: 3.5rem;
+    margin-right: 5%;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    display: flex;
+    color: rgb(0, 28, 85);
+    font-size: 1.2rem;
+}
+.menu a:hover{
+    font-weight: bolder;
+}
+/* Introduction and summary */
+.main-container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding-left: 5vmin;
+    margin-top: 5%;
+
+}
+/* Name Tag  */
+.name-container{
+    display: block;
+    height: 60vh;
+    width: 60vw;
+}
+.name-container h1{
+    text-align: center;
+    font-size: 3rem;
+    color:rgb(0, 28, 85) ;
+}
+.name-container p{
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(116, 133, 168);
+}
+/* Social Media Icons Design */
+.media-icon i{
+    color: black;
+}
+/* Github Button */
+.git-btn button{
+    list-style: none;
+    height: 8vh;
+    width: 20vw;
+    font-size: 1.2rem;
+    background-color: rgb(0, 28, 85);
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 28, 85);
+}
+
+/* skills style section */
+
+.skills-container{
+    height: 175vh;
+    margin-top: 55px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+/* What I Do */
+.skill-header{
+    height: 10vh;
+    width: 15vw;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    text-align: center;
+}
+/* Web developer Details */
+.first-skill{
+    height: 80vh;
+    position: relative;
+    top: 7%; left: 5%;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+}
+.web-details{
+    height: 70vh;
+    width: 55vw;
+    position: relative;
+}
+.web-technologies li{
+    list-style: none;
+    font-size: 2.5rem;
+}
+.web-technologies ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 10px;
+}
+.web-work{
+    position: relative;
+    top : 10%;
+    font-size: 1.24rem;
+    text-align: justify;
+    line-height: 1.5;
+    color: rgb(116, 133, 168);
+}
+/* Second Skill Section */
+
+/* Project Management Details*/
+
+.second-skill{
+    height: 80vh;
+    position: relative;
+    top: 8%; left: 5%;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+}
+.project-details{
+    height: 70vh;
+    width: 55vw;
+    position: relative;
+}
+.project-technologies li{
+    list-style: none;
+    font-size: 2.7rem;
+}
+.project-technologies ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 10px;
+}
+.project-work{
+    position: relative;
+    top : 10%;
+    font-size: 1.24rem;
+    text-align: justify;
+    line-height: 1.5;
+    color:rgb(116, 133, 168);
+}
+
+/* Footer Section */
+footer{
+    height: 7vh;
+    font-size: 1.2rem;
+}
+
+
+/* Education Section Design */
+
+.education-details{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.edu-img{
+    height: 70vh;
+    width: 45vw;
+    position: relative;
+    left: 5%;
+}
+.edu-img img{
+    height: 70vh;
+    width: 50vw;
+}
+.edu-details{
+    height: 70vh;
+    width: 50vw;
+    text-align: center;
+    position: relative;
+}
+/* Degree Received */
+
+.degrees{
+    display: block;
+    height: 170vh;
+    position: relative;
+}
+.degree-heading{
+    height: 10vh;
+    width: 60vw;
+    position: relative;
+    top: 2%;  left: 20%;
+}
+.bachelor-degree{
+    display: flex;
+    height: 70vh;
+    width: 90vw;
+    position: relative;
+    top: 5%; left: 5%;
+}
+.degree-img img{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 50%;
+    position: relative;
+    top: 20%; left: 5%;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+}
+.course{
+    position: relative;
+    height: 60vh;
+    width: 70vw;
+    top: 7%;  left: 3%;
+}
+.college-name{
+    background-color: #0E6BA877;
+    height: 18vh;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.course-details{
+    height: 40vh;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: rgb(116, 133, 168);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.course-details p{
+    position: relative;
+    top: 10%; left: 3%;
+    font-size: 1.2rem;
+}
+.Masters-degree{
+    display: flex;
+    height: 70vh;
+    width: 90vw;
+    position: relative;
+    top: 3%; left: 5%;
+}
+
+/* Certificate Section Design */
+.certificates{
+    height: 10vh;
+    text-align: center;
+}
+.certificates h2{
+    font-size: 2.5rem;
+    color: rgb(0, 28, 85);
+}
+.certification-details{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    width: 80vw;
+    align-items: center;
+    position: relative;
+    left: 10%;
+}
+
+.box{
+     height: 30vh;
+     width: 17vw;
+     border-radius: 1rem;
+     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+.box-img{
+    height: 20vh;
+    background-image: cover;
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.box-img img{
+    height: 20vh;
+    width: 17vw;
+    background-color: #0E6BA877;
+}
+
+/* Experience Section */
+.experience{
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    position: relative;
+    left: 5%;
+    align-items: center;
+}
+.exp-img{
+    height: 80vh;
+    width: 40vw;
+    position: relative; left: 5%;
+
+}
+.exp-img img{
+     height: 80vh; 
+} 
+.experience-content{
+    height: 80vh;
+    width: 40vw;
+    position: relative; left: 5%;
+    text-align: center;
+}
+
+/* INTERNSHIP DESIGN */
+.internship{
+    height: 90vh;
+    width: 90vw;
+    position: relative;
+    left: 5%; top: 10%;
+}
+.internship-details{
+    position: relative;
+    height: 30vh;
+    width: 70vw;
+    top: 15%;
+    left: 10%;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+.company-name{
+    display: flex;
+}
+.android-intern{
+    position: relative;
+    height: 30vh;
+    width: 70vw;
+    top: 20%;
+    left: 10%;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+/* Project Section Design */
+
+.project-content{
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+    /* background-color: yellowgreen; */
+    position: relative; left: 5%; 
+}
+.project-img2 img{
+    height: 80vh;
+    width: 45vw;
+    position: relative; left: 5%;
+    /* background-color: red; */
+}
+
