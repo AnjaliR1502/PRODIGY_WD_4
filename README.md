@@ -39,7 +39,7 @@ To run this portfolio locally, follow these steps:
    ```
 
 ## Usage
-Visit the live site at: [Your Portfolio URL](https://your-portfolio.com)
+Visit the live site at: [Your Portfolio URL]([https://your-portfolio.com](http://127.0.0.1:5500/index.html))
 
 ## Contributing
 If you'd like to contribute or suggest improvements, feel free to fork the repo and submit a pull request.
